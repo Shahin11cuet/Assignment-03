@@ -31,9 +31,9 @@
         extend: {
           colors: {
             clifford: '#da373d',
-          }
-        }
-      }
+          },
+        },
+      },
     }
   </script>
   <!--Daisyui-->
@@ -50,36 +50,9 @@
 
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a></li>
-                  <li>
-                    <a>Services</a>
-                   
-                  </li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contact Us</a></li>
-                </ul>
-              </div>
+             
               
-              <button class="btn btn-ghost text-2xl"><i class="fa-solid fa-arrow-right"></i>Rinterio</button>
+              <button class="btn btn-ghost text-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="rounded-full bg-lime-400"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg>Rinterio</button>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-xs">
@@ -91,23 +64,86 @@
                 <li><a>Portfolio</a></li>
                 <li><a>Blogs</a></li>
                 <li><a>Contact Us</a></li>
+                <li><Button></Button></li>
+                <li><Button></Button></li>
               </ul>
-            </div>
-            <div><i class="fa-solid fa-magnifying-glass"></i></div>
-            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            
+            </div>          
+          
             <div class="navbar-end">
-              <button class="btn bg-lime-400 text-black font-bold rounded-3xl text-sm">Book Consult <i class="fa-solid fa-arrow-right"> </i></button>
+              <button class="btn bg-lime-400 text-black font-bold rounded-3xl text-sm">Book Consult<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="  fill-white rounded-full bg-black "><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></button>
             </div>
           </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li>
+                <a>Services</a>
+               
+              </li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
      </nav>
-      
+      <!--Banner section-->
+     <section class="space-y-3 content-center lg:text-center sm:text-center">
+      <div class="mx-auto max-w-xl max-h-96" ><img src="./B10-Assignment-03-main/assets/banner.png" alt=""></div>
+      <h2 class="text-4xl font-black">A barn house of this design has a <br> striking appearance</h2>
+      <p class="text-xs">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+      <div><button class="btn bg-lime-400 text-black font-bold rounded-3xl text-sm lg:w-44 sm:w-96">View Details <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="rounded-full bg-black fill-white "><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></button></div>
+     </section>
 
     </header>
 
 
 
      <!--main-->
-    <main></main>
+    <main class=" bg-slate-100">
+
+     <!--Main section-01-->
+     <section class="grid grid-cols-1 lg:grid-cols-2 lg:container mx-auto mt-10 pt-32 sm:text-center">
+      <div class="space-y-5 mx-auto">
+        <div class="space-y-5"><div class="inline-flex space-x-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="rounded-full rotate-45"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg><button class="text-md">About Us</button></div>
+        <h2 class="text-4xl font-bold">We design thoughtful, <br> liveable spaces</h2>
+        <p class="text-xs">The barn house captivates with its blend of rustic charm and <br>
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="grid grid-cols-2 max-w-md bg-white rounded-2xl p-12" >
+           <div><img src="./B10-Assignment-03-main/assets/commercial.png"></div>
+          <div class="-ml-20"> <h1 class="text-xl font-bold">Commercial</h1>
+          <p class="text-xs">The barn house captivates with its blend<br>of rustic charm and modern.</p></div>
+        </div>
+        <div class="grid grid-cols-2 max-w-md bg-white rounded-2xl p-12" >
+          <div><img src="./B10-Assignment-03-main/assets/residential.png"></div>
+         <div class="-ml-20 space-y-2"> <h1 class="text-xl font-bold">Residential</h1>
+         <p class="text-xs">The barn house captivates with its blend<br>of rustic charm and modern.</p></div>
+       </div>
+      </div>
+      <div class="w-lg mx-auto mt-5"><img src="./B10-Assignment-03-main/assets/Rectangle.png" alt=""></div>
+     </section>
+
+
+
+
+    </main>
     
      <!--main-->
     <footer></footer>
